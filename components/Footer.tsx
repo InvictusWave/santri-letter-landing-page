@@ -89,12 +89,8 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="border-t border-[#f0f5f1] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-text-muted">© 2024 Santri Letter. All rights reserved.</p>
-          <div className="flex gap-6">
-            <a className="text-xs text-text-muted hover:text-primary font-medium" href="#">Syarat & Ketentuan</a>
-            <a className="text-xs text-text-muted hover:text-primary font-medium" href="#">Kebijakan Privasi</a>
-          </div>
+        <div className="border-t border-[#f0f5f1] pt-8 flex flex-col md:flex-row justify-center items-center gap-4 text-center">
+          <p className="text-xs text-text-muted">© {new Date().getFullYear()} Santri Letter. All rights reserved.</p>
         </div>
       </div>
     </footer>

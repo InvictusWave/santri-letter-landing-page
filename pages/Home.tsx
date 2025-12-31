@@ -9,8 +9,9 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="bg-white py-12 md:py-24 px-4 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
+      <section className="relative bg-white py-12 md:py-24 px-4 overflow-hidden">
+        <div className="absolute inset-0 bg-hero-pattern opacity-[0.03] pointer-events-none"></div>
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
             <div className="flex-1 space-y-8 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3 py-1 rounded-full text-xs font-bold text-primary-dark">
