@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://santriletter.com/sitemap.xml
+Sitemap: https://santri-letter.vercel.app/sitemap.xml
